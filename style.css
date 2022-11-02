@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:root{
+    --header-font: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-grow: 0.3;
+    flex-shrink: 0.3;
+    justify-content:space-around;
+    background-color: black;
+    padding: 10px;
+    font-family: var(--header-font);
+    width: 100%;
+    /* position: fixed; */
+}
+
+.navbar > a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.h{
+    display: none;
+}
+
+.n{
+   display: none;
+}
+
+.nope {
+    display: none;
+}
+
+/* Next Section */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CF0A0A;
+    width: 100%;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box1{
+ background-color: #f1f1f1;
+  /* border-radius: 32px; */
+  width: calc(750px - 10%);
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 20px;
+  /* border: 1px solid #CF0A0A; */
+  box-shadow: -5px 4px yellow,
+  -6px 5px black;
+  /* margin-bottom: 12px; */
+}
+.box2{
+    background-color: #f1f1f1;
+    /* border-radius: 32px; */
+    width: calc(700px - 10%);
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 20px;
+    /* border: 1px solid #CF0A0A; */
+    box-shadow: -5px 4px yellow,
+    -6px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .connect{
+    color: black;
+    text-decoration: none;
+   }
+
+   .btn{
+    padding: 12px;
+    flex-shrink: 1;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 200px all ease;
+    box-shadow: -10px 10px yellow;
+    overflow: hidden;
+  }
+
+   .btn:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+   }
+
+   .companies{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    flex-shrink: 2;
+    overflow: none;
+   }
+   .minibox{
+    height: 80px;
+    /* width: 80px; */
+    /* border: 1px solid black; */
+    margin: 22px;
+    flex-shrink: 3;
+    font-size: 13px;
+   }
+
+   .text{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: -12px 10px yellow;
+    border-radius: 12px;
+    transition: 1s all;
+    cursor: pointer;
+   }
+
+   .text:hover{
+    border-radius: 24px;
+    background-color: yellow;
+    box-shadow: -3px 10px black;
+    color: black;
+    border: none;
+
+   }
+
+   .btn1{
+    margin-top: 12px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    box-shadow: -12px 10px yellow;
+    transition: 1s all;
+   }
+
+   .btn1:hover{
+    box-shadow: -10px 10px black;
+    border-radius: 32px;
+    background-color: yellow;
+    color: black;
+   }
+
+   .head{
+    text-decoration: underline;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 70px;
+    font-size: 20px;
+    text-rendering: geometricPrecision;
+    background-color: black;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+   }
+   /* Next3 */
+
+   .container3{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex ;
+    flex-shrink: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 32px;
+   }
+   .boxs{
+    width: 600px;
+    border: 1px solid black;
+    /* border-radius: 12px; */
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 12px;
+    text-align: justify;
+    box-shadow: -10px 10px yellow;
+    margin: 32px 0px;
+   }
+
+   .boxs1{
+    background-color: yellow;
+    color: black;
+    height: 732px;
+    width: 500px;
+    /* margin-top: 12px; */
+    padding: 32px;
+    box-sizing: border-box;
+   }
+
+   .contain{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 22px;
+    box-shadow: 12px 12px #CF0A0A;
+    transition: 200ms all ease;
+   }
+
+   .contain:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+   }
+
+   .contain > a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: grey;
+    padding: 12px;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px yellow;
+    transition: 1s all ease-in-out;
+   }
+
+   .contain > a:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 2px grey;
+   }
+
+   .connect{
+    color: red;
+    border: 1px solid red;
+    padding: 6px;
+    transition: 2s all;
+    /* border-radius: 32px; */
+    box-shadow: 12px 12px black;
+
+   }
+
+   .connect:hover{
+    background-color: #CF0A0A;
+    color: white;
+    box-shadow: 6px 6px #CF0A0A;
+    border: none;
+   }
+
+   /* Additional */
+
+   ::selection{
+    /* border: 1px solid red; */
+    background-color: #CF0A0A;
+    color: black;
+   }
+
+   .head:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 0px;
+    text-decoration: none;
+   }
+
+   /* My Education */
+
+   .edusection{
+    flex-shrink: 0.3;
+    margin: 12px;
+    height: 270px;
+    width: 400px;
+    background-color: black;
+    /* border-radius: 32px; */
+    box-shadow: 12px 12px red;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s all;
+   }
+
+   .edusection:hover{
+    box-shadow: 18px 18px green;
+    width: 410px;
+    height: 270px;
+   }
+
+   .containedu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0.3;
+    flex-grow: 1.2;
+   }
+
+   .status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .red{
+    padding: 8px 16px;
+    border: 1px solid #CF0A0A;
+    /* border-radius: 22px; */
+    background-color: #CF0A0A;
+    box-shadow: 3px 3px yellow;
+    cursor: pointer;
+    transition: 1s all ease;
+   }
+
+   .red:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 7px 7px red;
+   }
+
+   .link{
+    border: 1px solid yellow;
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 12px;
+    display: block;
+    box-shadow: 12px 12px green;
+    transition: 1s all ease-in-out;
+    text-align: center;
+   }
+
+   .link:hover{
+    background-color: rgba(255, 255, 0, 0.862);
+    padding: 14px;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 6px 6px greenyellow;
+   }
+
+
+   .center1{
+    /* display: block; */
+    margin: 15px;
+    text-align: center;
+    /* color: #CF0A0A; */
+    border: 1px solid blue;
+    padding: 3px;
+    color: #f1f1f1;
+    background-color:blue ;
+    transition: 1s all;
+    box-shadow: 6px 6px red;
+    cursor: pointer;
+   }
+
+   .center1:hover{
+    box-shadow: 6px 6px blue;
+    background-color: red;
+    border-radius: 12px;
+    border: none;
+   }
+
+   .headder{
+    margin-bottom: 0px;
+   }
+
+   .edus{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    display: flex;
+    margin: 30px auto;
+    width: 330px;
+    box-shadow: 12px 12px red;
+    padding: 12px;
+    align-items: center;
+    transition: 1s all;
+   }
+.edus:hover{
+    background-color: blue;
+    border: none;
+    box-shadow: 12px 12px 2px 3px red;
+    width: 350px;
+}
+
+/* My Achievement */
+.achievementbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1.2;
+    flex-shrink: 0.5;
+    color: white;
+}
+
+.boxes1{
+    height: 250px;
+    width: 350px;
+    background-color: #1D1CE5;
+    margin: 12px;
+    box-shadow: 12px 12px #001253;
+    padding: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.boxes1:hover{
+    box-shadow: 15px 15px #1D1CE5;
+    background-color: #001253;
+}
+.one{
+    border: 1px solid #001253;
+    width: 80px;
+    padding: 12px;
+    background-color: #001253;
+    text-align: center;
+    box-shadow: 6px 6px #5837D0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.one:hover{
+    width: 100px;
+    height: 40px;
+    border: 2px solid #5837D0;
+    box-shadow: 8px 8px #5837D0;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.exe{
+    background-color: #FF1E1E;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    box-shadow: 2px 2px grey;
+    transition: 1s all ease-in-out;
+}
+
+.exe:hover{
+    background-color: #CF0A0A;
+    border: none;
+    /* border-radius: 12px; */
+    padding: 14px;
+    box-shadow: 6px 6px #000000;
+}
+
+.skillcontainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-shrink: 0.5;
+flex-grow: 1.2;
+}
+
+.containimg{
+    height: 150px;
+    width: 150px;
+    background-color: #161E54;
+    border-radius: 12px;
+    transition: 1s all;
+    margin: 24px;
+}
+
+.containimg:hover{
+    background-color: #1D1CE5;
+    width: 160px;
+    height: 160px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.imgses{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 17px;
+}
+
+.t{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    /* border: 1px solid red; */
+    background-color: red;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 6px 0px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 12px 12px;
+    transition: 1s all ease-in-out;
+}
+
+.t:hover{
+    background-color: #000000;
+}
+
+/* Contact Us Form */
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 16px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #88E0EF;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    transition: 1s all;
+    box-shadow: 6px 6px #FF5151;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  textarea:hover, select:hover, input[type=text]:hover, input[type=email]:hover{
+      background-color: black;
+      color: white;
+      outline: none;
+      border: 2px solid red;
+  }
+  
+  input[type=submit] {
+    background-color: #FF5151;
+    color: white;
+    padding: 12px 24px;
+    box-shadow: 6px 6px #88E0EF;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    transition: 1s all;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+    
+  }
+  input[type=submit]:hover {
+    background-color: #88E0EF;
+    box-shadow: 8px 8px #FF5151;
+    color: black;
+  }
+  
+  .containerbs {
+    box-shadow: 12px 12px yellow;
+    background-color: #000;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  footer{
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 60px 0px auto;
+    padding: 12px;
+    text-align: center;
+  }

@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+    .not{
+        display: none !important;
+    }
+
+    .h{
+        display: block !important;
+    }
+
+    /* For Drop Down */
+      
+      .dropdown {
+        position: absolute;
+        display: inline-block;
+        left: 20px;
+
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: relative;
+        top: 13px;
+        left: -20px !important;
+        background-color: black;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding-left: 16px;
+        padding-top: 26px;
+        padding-bottom: 12px;
+        padding-right: 20px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 200px; */
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
+      .dropdown-content a:hover {background-color: rgb(28, 25, 25)}
+      
+      .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        width: 200px !important;
+      }
+      
+      .nope{
+       display: inline-block !important;
+       font-size: 21px !important;
+       font-family: 'Courier New', Courier, monospace;
+
+       
+      }
+
+      .name {
+        display: none;
+
+      }
+
+      .box1, .box2{
+        height: 450px !important;
+        width: 500px !important;
+      }
+
+      .container3{
+        background-color: aliceblue !important;
+      }
+
+      .boxs{
+        width: 500px !important;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+.box2{
+    height: 500px !important;
+}
+
+.box1{
+    height: 400px !important;
+    padding: 12px;
+}
+.btn{
+    margin: 12px;
+}
+.boxs{
+    width:400px !important;
+}
+
+.boxs1{
+    height: 750px !important;
+}
+
+.edusection{
+    height: 300px !important;
+}
+
+  }
+
+
+
+  @media only screen and (min-width: 1500px){
+    .box2, .box1{
+        height: 500px !important;
+    }
+
+    .box1{
+        justify-content: center !important;
+    }
+  }
